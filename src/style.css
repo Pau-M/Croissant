@@ -17,6 +17,14 @@ p {
   line-height: 2;
   margin-bottom: 50px;
 }
+@media (max-width: 575px) {
+  .photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 45px;
+  }
+}
 .photos {
   display: flex;
   justify-content: space-around;
@@ -25,6 +33,7 @@ img {
   max-width: 300px;
   height: auto;
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 .dog {
   max-width: 200px;
