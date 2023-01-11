@@ -1,0 +1,51 @@
+body {
+  background-color: #fed39f;
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1,
+h3,
+p {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  color: #af460f;
+  margin-bottom: 40px;
+}
+p {
+  line-height: 2;
+  margin-bottom: 50px;
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 4px;
+}
+.dog {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.links {
+  background-color: #f6eec9;
+  margin-top: 40px;
+}
+
+.links a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
